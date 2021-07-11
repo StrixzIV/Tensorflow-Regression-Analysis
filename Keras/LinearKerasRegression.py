@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 from tensorflow import keras
 from tensorflow.keras import layers
 
-#setup from the base graph equations
+#setup the base graph equations
 N = 100
 X = np.random.rand(N)
 Y = 5 * X + 10 + 0.4 * np.random.rand(N)
